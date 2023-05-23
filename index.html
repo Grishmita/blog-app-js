@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .blog button {
+    display: none;
+}
+
+.blog span.delete-btn {
+    display: block;
+    background: grey;
+    width: 7%;
+    padding: 10px;
+    color: #fff;
+    border-radius: 3px;
+}
+</style>
+<body>
+    
+  <h1>Blog App</h1>
+  <div id="blog-list"></div>
+  <form id="add-blog-form">
+    <input type="text" id="title-input" placeholder="Enter title" required>
+    <textarea id="content-input" placeholder="Enter content" required></textarea>
+    <button type="submit">Add Blog</button>
+  </form>
+
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
